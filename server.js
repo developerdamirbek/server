@@ -5,9 +5,11 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
+
 server.use((req, res, next) => {
   setTimeout(next, 700);
 });
+
 setTimeout(() => {
   server.use(router);
   app.use(server);
@@ -16,6 +18,7 @@ setTimeout(() => {
 const app = express();
 
 const PORT = 3600;
+
 app.listen(PORT, () => {
   console.log("Server is running on...");
 });

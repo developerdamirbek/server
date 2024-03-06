@@ -1,6 +1,19 @@
 {
   "users": [],
-  "banner": [],
+  "banner": [
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "id": 50
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "id": 50
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "id": 50
+    }
+  ],
   "brand": [
     {
       "id": 6,
