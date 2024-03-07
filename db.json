@@ -1,16 +1,27 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "devdamirbek@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "email": "devdamirbek@gmail.com",
+      "password": "12345",
+      "id": 2
+    }
+  ],
   "banner": [
     {
-      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "img": "https://olcha.uz/image/original/sliders/ru/JwFP8H3qk55szQrT7xiLJzB71g6gAChEtieJYv4aFEJ3udzLC1mAKRFFInww.png",
       "id": 50
     },
     {
-      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "img": "https://olcha.uz/image/original/sliders/ru/etALz7NufgJ8sFKv7ZZgJJPIbCk3ka6pnDQt5brev1etacWH3Vvfl6Xuxa8Q.png",
       "id": 51
     },
     {
-      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/banner_img.png",
+      "img": "https://olcha.uz/image/original/sliders/ru/c1lBPgoshZuCwRyVfkWKxh3J03EzknQdOqNW9Hx1JGAmPsNqydGPCoQnWD2l.png",
       "id": 52
     }
   ],
@@ -96,40 +107,759 @@
       "title": "Kitchen"
     }
   ],
-
   "category": [
     {
       "id": 1,
       "title": "Смартфоны и планшеты",
-      "datakey":"phone",
+      "datakey": "phone",
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone_category.png"
     },
     {
       "id": 2,
       "title": "Ноутбуки",
-      "datakey":"laptop",
+      "datakey": "laptop",
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/laptop_category.png"
     },
     {
       "id": 3,
       "title": "Авто мото товары",
-      "datakey":"avto",
+      "datakey": "avto",
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/avto_category.png"
     },
     {
       "id": 4,
       "title": "Компьютеры для геймеров",
-      "datakey":"gaming",
+      "datakey": "gaming",
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/game_category.png"
     },
     {
       "id": 5,
       "title": "Бытовая техника",
-      "datakey":"home",
+      "datakey": "home",
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/home_category.png"
+    },
+    {
+      "id": 6,
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/brend/sport.png",
+      "title": "Спорт",
+      "datakey": "sport"
     }
   ],
-
+  "all": [
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img1.jpg",
+      "title": "Беговая дорожка CF-6-4",
+      "brand": "sportGym",
+      "price": "9 375 000",
+      "id": 60
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img2.jpg",
+      "title": "Велотренажёр Grand Fitness GF-0716EA",
+      "brand": "sportGym",
+      "price": "4 697 000",
+      "id": 61
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img3.jpg",
+      "title": "Велотренажёр Grand Fitness 0701",
+      "brand": "sportGym",
+      "price": "3 057 000",
+      "id": 62
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img4.jpg",
+      "title": " Набор гантелей 6 в 1",
+      "brand": "sportGym",
+      "price": "990 000",
+      "id": 63
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img5.jpg",
+      "title": " Набор гантелей 10кг 6 в 1",
+      "brand": "sportGym",
+      "price": "730 000",
+      "id": 64
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img6.jpg",
+      "title": "Беговая дорожка PowerGym PG-565Mi",
+      "brand": "sportGym",
+      "price": "9 300 000",
+      "id": 65
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img7.jpg",
+      "title": "Беговая дорожка NewNoble V5",
+      "brand": "NewNoble",
+      "price": "11 000 000",
+      "id": 66
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img8.jpg",
+      "title": "Многофункциональный силовой тренажер PowerGym H83E",
+      "brand": "sportGym",
+      "price": "11 130 000",
+      "id": 67
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img9.jpg",
+      "title": "Платформа для отжиманий с эспандерами 14 в 1",
+      "brand": "NewNoble",
+      "price": "350 000",
+      "id": 68
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img10.jpeg",
+      "title": "Платформа для отжиманий с эспандерами 14 в 1",
+      "brand": "NewNoble",
+      "price": "350 000",
+      "id": 69
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img11.jpeg",
+      "title": "Мини степпер PowerGym",
+      "brand": "sportGym",
+      "price": "1 050 000",
+      "id": 70
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img12.jpeg",
+      "title": "Фитнес мяч 85см (904)",
+      "brand": "sportGym",
+      "price": "198 000",
+      "id": 71
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img19.jpeg",
+      "title": "Ролик массажный 45см (3105)",
+      "brand": "sportGym",
+      "price": "180 000",
+      "id": 77
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img20.jpeg",
+      "title": "Гантели Резиновые 1.5 кг 2шт (3124)",
+      "brand": "sportGym",
+      "price": "260 000",
+      "id": 78
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img13.jpeg",
+      "title": "Беговая дорожка PowerGym PG 710",
+      "brand": "sportGym",
+      "price": "7 400 000",
+      "id": 72
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img14.jpeg",
+      "title": "Гимнастический ролик для пресса",
+      "brand": "sportGym",
+      "price": "205 000",
+      "id": 73
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img15.jpeg",
+      "title": "Упоры для отжимания",
+      "brand": "NewNoble",
+      "price": "186 000",
+      "id": 74
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img16.jpg",
+      "title": "Велотренажер PowerGym B50",
+      "brand": "sportGym",
+      "price": "3 230 000",
+      "id": 74
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img17.jpg",
+      "title": "Велотренажер PowerGym B60",
+      "brand": "sportGym",
+      "price": "3 900 000",
+      "id": 75
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img18.jpeg",
+      "title": "Велотренажер PowerGym B55",
+      "brand": "sportGym",
+      "price": "3 700 000",
+      "id": 76
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img21.jpeg",
+      "title": "Инверсионный стол PowerGym A27",
+      "brand": "NewNoble",
+      "price": "2 600 000",
+      "id": 79
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img22.jpeg",
+      "title": "Универсальная скамья для пресса PowerGym DDS-201",
+      "brand": "PowerGym",
+      "price": "2 100 000",
+      "id": 80
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img23.jpeg",
+      "title": "Универсальная скамья для пресса PowerGym B10",
+      "brand": "PowerGym",
+      "price": "2 800 000",
+      "id": 81
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img24.jpeg",
+      "title": "Многофункциональный силовой тренажер PowerGym H99",
+      "brand": "PowerGym",
+      "price": "15 300 000",
+      "id": 82
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img25.jpeg",
+      "title": "Многофункциональный силовой тренажер PowerGym H68",
+      "brand": "PowerGym",
+      "price": "7 201 000",
+      "id": 83
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img26.jpeg",
+      "title": "Многофункциональный силовой тренажер PowerGym H18",
+      "brand": "PowerGym",
+      "price": "8 200 000",
+      "id": 84
+    },
+    
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone1.png",
+      "title": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+      "brand": "Samsung",
+      "price": 230,
+      "stock": 25,
+      "id": 100
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone2.png",
+      "title": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+      "brand": "Samsung",
+      "price": 270,
+      "stock": 25,
+      "id": 101
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone3.png",
+      "title": "Смартфон Xiaomi Mi 10T 8+128GB Black",
+      "brand": "MI",
+      "price": 245,
+      "stock": 25,
+      "id": 102
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone4.png",
+      "title": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+      "brand": "Samsung",
+      "price": 210,
+      "stock": 25,
+      "id": 103
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone5.png",
+      "title": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+      "brand": "Samsung",
+      "price": 325,
+      "stock": 25,
+      "id": 104
+    },
+    {
+      "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone6.png",
+      "title": "Смартфон Xiaomi Mi 10T 8+128GB Black",
+      "brand": "MI",
+      "price": 200,
+      "stock": 25,
+      "id": 105
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-09-13/r5rWorFXae6kEzgxMYznEwFRoBxpxZ93aPv6ib2jUWPQ4KfPjwqt3GSZNYt5.jpg",
+      "title": "Apple iPhone 15 Pro 128GB Natural titanium",
+      "brand": "Apple",
+      "price": 1500,
+      "stock": 10,
+      "id": 106
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-09-13/nL2gsyLlzvDeLOLLNIfmaqbNUDEvoQCttbmkIss32QxbhkbrfJuEAFOu1ETM.jpg",
+      "title": "Apple iPhone 15 Pro Max 256GB Natural titanium",
+      "brand": "Apple",
+      "price": 1700,
+      "stock": 15,
+      "id": 107
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-09-13/T3PO0Dxw7MazePD702NJuRuAmeFd1OZaB031BX5hL6CRL2pXkegZElabC82D.jpg",
+      "title": "Apple iPhone 15 Pro 128GB Natural titanium",
+      "brand": "Apple",
+      "price": 1500,
+      "stock": 10,
+      "id": 108
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/CH8quYuk9JyUps12Msm3LthrSi6z7Dp7N6PNqoqJVcu0UwELa9mI2iXJpxYW.jpg",
+      "title": "Apple iPhone 15 Pro 128GB Natural titanium",
+      "brand": "Apple",
+      "price": 1500,
+      "stock": 10,
+      "id": 109
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-09-13/P9GovuQXvydINNTDemSA7QRgkAOBlv06mDARUz7Z1DFHAuc1djLX8JkucKoC.jpg",
+      "title": "Apple iPhone 15 Pro 128GB Natural titanium",
+      "brand": "Apple",
+      "price": 1500,
+      "stock": 10,
+      "id": 110
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-09-13/4s7bLXpcpn2dY7xiT45mI37aiMwsOxLevo52iQwCZUc2PtAZ4EOYnMllVZHr.jpg",
+      "title": "Apple iPhone 15 Pro 128GB Natural titanium",
+      "brand": "Apple",
+      "price": 1500,
+      "stock": 10,
+      "id": 111
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 112
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 113
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 114
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 115
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 116
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-01-19/gA6JHvnffZwbGFSUNiWc33MaHHFtZLL386AQMAjvXJ0uPrW6Libw6fEEUSir.jpg",
+      "title": "Honor X8b Черный 8/256 GB",
+      "brand": "Honor",
+      "price": 1500,
+      "stock": 10,
+      "id": 117
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/YnvVsBWL2uIcDRvD08wBX4AkE4KgLMALJ9pruJhL8JVMuPFyDkozXBgYc59G.jpg",
+      "title": "Телевизор Samsung UE75BU8000UXCE 75",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 200
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/ydlBNVVDMK5c6EyD7jZbuGIsGzgiDnlh8LRgLbDfxfnhosotf60q8IULhENx.jpg",
+      "title": "Телевизор Samsung UE75BU8000UXCE 75",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 201
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2022-10-07/televizor-samsung-65q60b-4k-smart-tv-65-133842-0.jpeg",
+      "title": "Телевизор Samsung UE75BU8000UXCE 75",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 202
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2021-02-23/televizor-samsung-qe65q80tau-65-2020-uz-21663-0.jpeg",
+      "title": "Телевизор Samsung UE75BU8000UXCE 75",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 203
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2022-10-17/kholodilnik-samsung-rb37p5491saw3-157242-0.jpeg",
+      "title": "Холодильник Samsung RB37P5491SA/W3",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 204
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2022-11-14/ww80j62-stiralnaya-mashina-s-funktsiey-eco-bubble-168711-0.jpeg",
+      "title": "Стиральная машина с функцией Eco Bubble Cерый WW80J6210CSOLD",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 205
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2018-11-06/pylesos-samsung-vc20m2560jp-6073-0.jpg",
+      "title": "Пылесос Samsung VC20M2560JP",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 203
+    },
+    {
+      "img": "https://olcha.uz/image/250x250/products/2020-08-03/mikrovolnovaya-pech-samsung-ms23f302tak-14967-0.jpeg",
+      "title": "Микроволновая печь Samsung MS23F302TAK",
+      "brand": "Samsung",
+      "price": 660,
+      "id": 203
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/xLvyvReA303TGwnOEf0Yt1e5f2fAGE5KY2oBjZiTZ83AwH00DsjieJi0HWo8.jpg",
+      "title": "Монитор HP Z43 60Hz 43` UHD (1AA85A4)",
+      "brand": "hp",
+      "price": 1500,
+      "id": 300
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/cW67vCMiy05QSFiqVJabFzVScYEbdf4wtCJaM0RUswZL1iHSDfK1fynGMI0w.jpg",
+      "title": "Монитор HP Z43 60Hz 43` UHD (1AA85A4)",
+      "brand": "hp",
+      "price": 1500,
+      "id": 300
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/DuTMqTg2FioDey6pgWs3NBW9KrroQMZgizZQOQh8TB6W8i6NIZyijpq9uViG.jpg",
+      "title": "Монитор HP Z43 60Hz 43` UHD (1AA85A4)",
+      "brand": "hp",
+      "price": 1500,
+      "id": 300
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/LcGwxG0ldlqpbzbpmzti9RqCl7wuXOmuGwNn8PtSKIUwklHRygpSr53OKV0E.jpg",
+      "title": "Монитор HP Z43 60Hz 43` UHD (1AA85A4)",
+      "brand": "hp",
+      "price": 1500,
+      "id": 300
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/cdn_1/supplier/stores/1/2024-02-28/w3enIXXo3Qebb7GbRrL8dvNFiQjaRiVmeLlPdyJ19SjywqIgDtM1g8YxfnhJ.jpg",
+      "title": "Ноутбук HP Pavilion x360 i5-1235U 8/512 GB 14` FHD",
+      "brand": "hp",
+      "price": 770,
+      "id": 400
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2024-02-27/qJWYfSxpeU88CaahzDfkNn0XicOpbzCQscDZqtMHmABewNHo6MOaxYBdMvMz.jpg",
+      "title": "Ноутбук HP Pavilion x360 i5-1235U 8/512 GB 14` FHD",
+      "brand": "hp",
+      "price": 770,
+      "id": 401
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/Ia8keWIJQFJ6jhub0pqlslhACZTnYgdchOM4VClkOv3DdSqeK1Ce1tUf3q6P.jpg",
+      "title": "Ноутбук HP Pavilion x360 i5-1235U 8/512 GB 14` FHD",
+      "brand": "hp",
+      "price": 770,
+      "id": 402
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/UooBucD5KeHjWfu1nGL9MH423l8uYFXq8LiMC83b6MkeM4P1mbY8bBOjvvYQ.jpg",
+      "title": "Ноутбук HP Pavilion x360 i5-1235U 8/512 GB 14` FHD",
+      "brand": "hp",
+      "price": 770,
+      "id": 403
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/Jv5xUuTlC8pq3SZMAZqDQZ0xo7CbzctSCQkpCfUyJGmcjGgFCiqSOeHcilhZ.jpg",
+      "title": "Ноутбук HP Pavilion x360 i5-1235U 8/512 GB 14` FHD",
+      "brand": "hp",
+      "price": 770,
+      "id": 404
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/4CMlMhxPrgHrnHDLSLPHpOIZKv8vw0sfKW3f2vRqNQbvW7GVzf1SghXiNX44.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 405
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-07-11/LUUaiuRhOOkOxjcRtvIPES76WhJvppxb9uD8Z4q9SNEWZwSxilMKDHVgPBK0.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 406
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-07-11/ZqHZbIQyhj939AcVvl5kksVWRGGhywsBGEu0oAtUMhwbAQC1f1XqS6CUMi2H.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 407
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/supplier/stores/1/2023-07-11/idKpFwcfLCnPuWYZDFkTIAJKYUfuR6khMlNDZGvObdQs2xtGCJAJkoN8EA1z.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 408
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/0JDy0dvijhxTvSgfZXmJDcaD1AKhcYMecUjHBEL5AQO2QQkFgc6CzXEJ2VqU.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 409
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/Xhhsh9FM4lncnnFmvwU4ph9iG8hm33CP0hQMRhOoU6zmrsvBqoePIyAKjzV8.jpg",
+      "title": "Ноутбук MacBook Air M2 15` Starlight 512 ГБ SSD",
+      "brand": "Apple",
+      "price": 2300,
+      "id": 410
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/879bxm9p6TYcAhhiTje8jgq9gnjvK8QMnjdPMIHQZoWhT592OUqFkjR6gcCY.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
+      "price": 500,
+      "id": 500
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/YmE1zDKsxO8Ps626AlNnG0PG0gsQjNV2VYCxTiZaRg9mF33DsXS3A4Pdi9Bz.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
+      "price": 200,
+      "id": 501
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/QSwxedAzbroARJLO9dnbIuBBqJQSSDY2KSfKQdnrOVwI0nSmPLt8efiFxbPN.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
+      "price": 200,
+      "id": 502
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/7EfgzJbdWjRohALdboSXqFKr6w0oJzOeXx6wfWev8C4p1l5DMonRWZB6cV1Z.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
+      "price": 200,
+      "id": 503
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-5003-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
+      "price": 200,
+      "id": 504
+    },
+    {
+      "img": "https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
+      "price": 200,
+      "id": 505
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
+      "price": 200,
+      "id": 506
+    },
+    {
+      "img": "https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-5003-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
+      "price": 200,
+      "id": 507
+    }
+  ],
+  "sport": [
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img1.jpg",
+      "title": "Беговая дорожка CF-6-4",
+      "brand": "sportGym",
+      "price": "9 375 000",
+      "id": 60
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img2.jpg",
+      "title": "Велотренажёр Grand Fitness GF-0716EA",
+      "brand": "sportGym",
+      "price": "4 697 000",
+      "id": 61
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img3.jpg",
+      "title": "Велотренажёр Grand Fitness 0701",
+      "brand": "sportGym",
+      "price": "3 057 000",
+      "id": 62
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img4.jpg",
+      "title": " Набор гантелей 6 в 1",
+      "brand": "sportGym",
+      "price": "990 000",
+      "id": 63
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img5.jpg",
+      "title": " Набор гантелей 10кг 6 в 1",
+      "brand": "sportGym",
+      "price": "730 000",
+      "id": 64
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img6.jpg",
+      "title": "Беговая дорожка PowerGym PG-565Mi",
+      "brand": "sportGym",
+      "price": "9 300 000",
+      "id": 65
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img7.jpg",
+      "title": "Беговая дорожка NewNoble V5",
+      "brand": "NewNoble",
+      "price": "11 000 000",
+      "id": 66
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img8.jpg",
+      "title": "Многофункциональный силовой тренажер PowerGym H83E",
+      "brand": "sportGym",
+      "price": "11 130 000",
+      "id": 67
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img9.jpg",
+      "title": "Платформа для отжиманий с эспандерами 14 в 1",
+      "brand": "NewNoble",
+      "price": "350 000",
+      "id": 68
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img10.jpeg",
+      "title": "Платформа для отжиманий с эспандерами 14 в 1",
+      "brand": "NewNoble",
+      "price": "350 000",
+      "id": 69
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img11.jpeg",
+      "title": "Мини степпер PowerGym",
+      "brand": "sportGym",
+      "price": "1 050 000",
+      "id": 70
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img12.jpeg",
+      "title": "Фитнес мяч 85см (904)",
+      "brand": "sportGym",
+      "price": "198 000",
+      "id": 71
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img19.jpeg",
+      "title": "Ролик массажный 45см (3105)",
+      "brand": "sportGym",
+      "price": "180 000",
+      "id": 77
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img20.jpeg",
+      "title": "Гантели Резиновые 1.5 кг 2шт (3124)",
+      "brand": "sportGym",
+      "price": "260 000",
+      "id": 78
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img13.jpeg",
+      "title": "Беговая дорожка PowerGym PG 710",
+      "brand": "sportGym",
+      "price": "7 400 000",
+      "id": 72
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img14.jpeg",
+      "title": "Гимнастический ролик для пресса",
+      "brand": "sportGym",
+      "price": "205 000",
+      "id": 73
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img15.jpeg",
+      "title": "Упоры для отжимания",
+      "brand": "NewNoble",
+      "price": "186 000",
+      "id": 74
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img16.jpg",
+      "title": "Велотренажер PowerGym B50",
+      "brand": "sportGym",
+      "price": "3 230 000",
+      "id": 74
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img17.jpg",
+      "title": "Велотренажер PowerGym B60",
+      "brand": "sportGym",
+      "price": "3 900 000",
+      "id": 75
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img18.jpeg",
+      "title": "Велотренажер PowerGym B55",
+      "brand": "sportGym",
+      "price": "3 700 000",
+      "id": 76
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img21.jpeg",
+      "title": "Инверсионный стол PowerGym A27",
+      "brand": "NewNoble",
+      "price": "2 600 000",
+      "id": 79
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img22.jpeg",
+      "title": "Универсальная скамья для пресса PowerGym DDS-201",
+      "brand": "PowerGym",
+      "price": "2 100 000",
+      "id": 80
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img23.jpeg",
+      "title": "Универсальная скамья для пресса PowerGym B10",
+      "brand": "PowerGym",
+      "price": "2 800 000",
+      "id": 81
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img24.jpeg",
+      "title": "Многофункциональный силовой тренажер PowerGym H99",
+      "brand": "PowerGym",
+      "price": "15 300 000",
+      "id": 82
+    },
+    {
+      "img": "https://raw.githubusercontent.com/QurbonbekovaSabira/img_folder/main/giperMart/sport/img25.jpeg",
+      "title": "Многофункциональный силовой тренажер PowerGym H68",
+      "brand": "PowerGym",
+      "price": "7 201 000",
+      "id": 83
+    }
+  ],
   "phone": [
     {
       "img": "https://raw.githubusercontent.com/developerdamirbek/Gipermart_images/main/products/phone1.png",
@@ -275,7 +1005,6 @@
       "stock": 10,
       "id": 117
     }
-    
   ],
   "home": [
     {
@@ -335,7 +1064,7 @@
       "id": 203
     }
   ],
-  "game": [
+  "gaming": [
     {
       "img": "https://olcha.uz/image/266x266/products/xLvyvReA303TGwnOEf0Yt1e5f2fAGE5KY2oBjZiTZ83AwH00DsjieJi0HWo8.jpg",
       "title": "Монитор HP Z43 60Hz 43` UHD (1AA85A4)",
@@ -446,50 +1175,50 @@
   ],
   "avto": [
     {
-      "img":"https://olcha.uz/image/220x220/products/879bxm9p6TYcAhhiTje8jgq9gnjvK8QMnjdPMIHQZoWhT592OUqFkjR6gcCY.jpg",
-      "title":"Автомобильные диски Vossen Dz R15x100",
+      "img": "https://olcha.uz/image/220x220/products/879bxm9p6TYcAhhiTje8jgq9gnjvK8QMnjdPMIHQZoWhT592OUqFkjR6gcCY.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
       "price": 500,
       "id": 500
     },
     {
-      "img":"https://olcha.uz/image/220x220/products/YmE1zDKsxO8Ps626AlNnG0PG0gsQjNV2VYCxTiZaRg9mF33DsXS3A4Pdi9Bz.jpg",
-      "title":"Автомобильные диски Vossen Dz R15x100",
+      "img": "https://olcha.uz/image/220x220/products/YmE1zDKsxO8Ps626AlNnG0PG0gsQjNV2VYCxTiZaRg9mF33DsXS3A4Pdi9Bz.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
       "price": 200,
       "id": 501
     },
     {
-      "img":"https://olcha.uz/image/266x266/products/QSwxedAzbroARJLO9dnbIuBBqJQSSDY2KSfKQdnrOVwI0nSmPLt8efiFxbPN.jpg",
-      "title":"Автомобильные диски Vossen Dz R15x100",
+      "img": "https://olcha.uz/image/266x266/products/QSwxedAzbroARJLO9dnbIuBBqJQSSDY2KSfKQdnrOVwI0nSmPLt8efiFxbPN.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
       "price": 200,
       "id": 502
     },
     {
-      "img":"https://olcha.uz/image/266x266/products/7EfgzJbdWjRohALdboSXqFKr6w0oJzOeXx6wfWev8C4p1l5DMonRWZB6cV1Z.jpg",
-      "title":"Автомобильные диски Vossen Dz R15x100",
+      "img": "https://olcha.uz/image/266x266/products/7EfgzJbdWjRohALdboSXqFKr6w0oJzOeXx6wfWev8C4p1l5DMonRWZB6cV1Z.jpg",
+      "title": "Автомобильные диски Vossen Dz R15x100",
       "price": 200,
       "id": 503
     },
     {
-      "img":"https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-5003-0.jpg",
-      "title":"Руль Chevrolet M&B (Реплика)",
+      "img": "https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-5003-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
       "price": 200,
       "id": 504
     },
     {
-      "img":"https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
-      "title":"Руль Chevrolet M&B (Реплика)",
+      "img": "https://olcha.uz/image/220x220/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
       "price": 200,
       "id": 505
     },
     {
-      "img":"https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
-      "title":"Руль Chevrolet M&B (Реплика)",
+      "img": "https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-1-5004-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
       "price": 200,
       "id": 506
     },
     {
-      "img":"https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-5003-0.jpg",
-      "title":"Руль Chevrolet M&B (Реплика)",
+      "img": "https://olcha.uz/image/266x266/products/2018-09-10/rul-mercedes-5003-0.jpg",
+      "title": "Руль Chevrolet M&B (Реплика)",
       "price": 200,
       "id": 507
     }
